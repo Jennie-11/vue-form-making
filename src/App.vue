@@ -8,13 +8,13 @@
 
       <div class="fm-link">
 
-        <a class="ad" href="https://form.making.link" target="_blank">{{$t('header.advanced')}}</a>
+        <!-- <a class="ad" href="https://form.making.link" target="_blank">{{$t('header.advanced')}}</a>
         <a target="_blank" href="https://form.making.link/docs/bv/guide.html" v-if="$i18n.locale == 'zh-CN'">{{$t('header.document')}}</a>
         <a target="_blank" href="https://form.making.link/docs/en/bv/guide.html" v-if="$i18n.locale == 'en-US'">{{$t('header.document')}}</a>
         
         <a target="_blank" href="https://gitee.com/gavinzhulei/vue-form-making" v-if="$i18n.locale == 'zh-CN'">Gitee</a> 
-        <a target="_blank" href="https://github.com/GavinZhuLei/vue-form-making">GitHub</a>
-
+        <a target="_blank" href="https://github.com/GavinZhuLei/vue-form-making">GitHub</a> -->
+<!-- 
         <div class="action-item">
           <el-dropdown trigger="click" @command="handleLangCommand">
             <span class="el-dropdown-link">
@@ -25,7 +25,7 @@
               <el-dropdown-item command="en-US">English</el-dropdown-item>
             </el-dropdown-menu>
           </el-dropdown>
-        </div>
+        </div> -->
       </div>
     </div>
     <div  class="fm-container"><router-view/></div>
